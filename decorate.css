@@ -9,7 +9,7 @@ body {
 main {
     height: 25vh;
     width: 100%;
-    background-image: url(images/tajine.jpg);
+    background-image: url(images/decorate.jpg);
     background-size: cover;
     background-position: center;
 }
@@ -41,14 +41,7 @@ main {
 }
 
 .intro p {
-    margin-bottom: 3rem;
-    line-height: 1.6;
-}
-
-.tajine-image {
-    margin-top: 0;
-    transition: transform 1500ms ease;
-    scale: 1;
+    margin-bottom: 10rem;
 }
 
 button {
