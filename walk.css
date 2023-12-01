@@ -1,0 +1,71 @@
+body {
+    /*width: 100vh;*/
+    width: 100%;
+    margin: 0px;
+    background-color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+main {
+    height: 25vh;
+    width: 100%;
+    background-image: url(images/belgha.jpg);
+    background-size:contain;
+}
+
+.intro {
+    color: white;
+    text-align: center;
+    margin: 0 500px;
+    align-items: center;
+}
+@media screen and (min-width: 768px) {
+    /* Adjust the margin for screens wider than 768px */
+    .intro {
+        margin: 0 50px;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    /* Adjust the margin for screens wider than 1024px */
+    .intro {
+        margin: 0 100px;
+    }
+}
+
+.intro h1 {
+    font-size: 10rem;
+    margin-bottom: 0;
+    margin-top: 30px;
+}
+
+.intro p {
+    margin-bottom: 5px;
+}
+
+.belgha-image {
+    transition: transform 1500ms ease;
+    scale: 0.5;
+}
+
+button {
+    color:white;
+    height: 5rem;
+    width: 5rem;
+    position: fixed;
+    left: 50%;
+    bottom: 3rem;
+    transform: translateX(-50%);
+    background-color: rgb(182, 142, 113);
+    border: none;
+    border-radius: 5rem;
+    outline: none;
+    box-shadow: 0rem 0rem 4rem rgb(0 0 0/35%);
+    cursor: pointer;
+    transition: transform, background-color;
+    transition-timing-function: ease;
+    transition-duration: 400ms;
+}
+body button:hover {
+    transform: translateX(-50%) scale(1.04);
+}
